@@ -14,7 +14,6 @@ function enTete($titre = "Party Shaker") { ?>
               type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
 
-
         <!-- C'est plus joli ainsi -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
