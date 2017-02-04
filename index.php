@@ -15,28 +15,49 @@ function pageContent()
             <i class="map marker icon"></i>
             <div class="content">
                 <a class="header">Projet X</a>
-                <div class="description">Grosse darass, venez nombreux.</div>
+                <div class="description">
+                    Grosse darass, venez nombreux.
+                    <button class="ui basic button" style="margin-left: 2em">
+                        <i class="icon user"></i>
+                        Je participe !
+                    </button>
+                </div>
             </div>
         </div>
         <div class="item">
             <i class="map marker icon"></i>
             <div class="content">
                 <a class="header">Soirée Chill</a>
-                <div class="description">Tous à poil sur Norvan, 3 bouteilles par personne minimum requises.</div>
+                <div class="description">
+                    Tous à poil sur Norvan, 3 bouteilles par personne minimum requises.
+                    <button class="positive ui button" style="margin-left: 2em">Participation acceptée</button>
+                </div>
             </div>
         </div>
         <div class="item">
             <i class="map marker icon"></i>
             <div class="content">
                 <a class="header">Petite sortie au Black</a>
-                <div class="description">Une soirée au Black oklm.</div>
+                <div class="description">
+                    Une soirée au Black oklm.
+                    <button class="ui basic button" style="margin-left: 2em">
+                        <i class="icon user"></i>
+                        Je participe !
+                    </button>
+                </div>
             </div>
         </div>
         <div class="item">
             <i class="map marker icon"></i>
             <div class="content">
                 <a class="header">Soirée junkie</a>
-                <div class="description">Oui.</div>
+                <div class="description">
+                    Oui.
+                    <button class="ui basic button" style="margin-left: 2em">
+                        <i class="icon user"></i>
+                        Je participe !
+                    </button>
+                </div>
             </div>
         </div>
     </div>
