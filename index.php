@@ -2,12 +2,11 @@
 
 include_once "structure.inc.php";
 
-enTete();
-contenu();
-pied();
+pageHeader();
+pageContent();
+pageFooter();
 
-function contenu()
+function pageContent()
 { ?>
-    <h1>Bonjour à tous</h1>
-    <h2> Toto </h2>
+    <h1> Hello World !</h1>
 <?php } ?>

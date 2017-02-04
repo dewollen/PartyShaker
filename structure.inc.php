@@ -1,5 +1,5 @@
 <?php
-function enTete($titre = "Party Shaker") { ?>
+function pageHeader($title = "Party Shaker") { ?>
     <!DOCTYPE html>
     <html lang="fr">
     <head>
@@ -7,7 +7,7 @@ function enTete($titre = "Party Shaker") { ?>
         <meta charset="utf-8">
 
         <!-- Un petit titre des familles -->
-        <title><?php echo $titre; ?></title>
+        <title><?php echo $title; ?></title>
 
         <!-- Du style ! -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css"
@@ -24,7 +24,7 @@ function enTete($titre = "Party Shaker") { ?>
 <?php
 }
 
-function pied() { ?>
+function pageFooter() { ?>
     </body>
     </html>
 <?php
