@@ -10,7 +10,7 @@ function pageContent()
 { ?>
     <h1 style="text-align:center"> Hello World !</h1>
 
-    <div class="ui divided list" style="margin-left: 5em">
+    <div class="ui celled list" style="margin-left">
         <div class="item">
             <i class="map marker icon"></i>
             <div class="content">
