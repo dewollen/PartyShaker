@@ -8,7 +8,6 @@ pied();
 
 function contenu()
 { ?>
-
     <h1>Bonjour à tous</h1>
 
 <?php } ?>
