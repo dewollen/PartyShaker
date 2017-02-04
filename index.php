@@ -9,5 +9,5 @@ pied();
 function contenu()
 { ?>
     <h1>Bonjour à tous</h1>
-    <h2> Toto </h2>
+    <h2> Toto  </h2>
 <?php } ?>
