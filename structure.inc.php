@@ -1,31 +1,36 @@
 <?php
 function pageHeader($title = "Party Shaker") { ?>
     <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <!-- Sinon Philippe va gazer -->
-        <meta charset="utf-8">
+<html lang="fr">
+<head>
+    <!-- Sinon Philippe va gazer -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Where all parties start"/>
+    <meta name="keywords" content="party, fun"/>
+    <meta name="author" content="Di Gregorio Thomas & Emion Thibaut"/>
+    <meta name="copyright" content="Copyright owner"/>
 
-        <!-- Un petit titre des familles -->
-        <title><?php echo $title; ?></title>
+    <!-- Un petit titre des familles -->
+    <title><?php echo $title; ?></title>
 
-        <!-- Du style ! -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css"
-              type="text/css">
-        <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Du style ! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css"
+          type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 
-        <!-- C'est plus joli ainsi -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="myscripts.js"></script>
+    <!-- C'est plus joli ainsi -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="myscripts.js"></script>
 
-    </head>
-    <body>
+</head>
+<body>
 <?php
 }
 
 function pageFooter() { ?>
-    </body>
-    </html>
+</body>
+</html>
 <?php
 } ?>
