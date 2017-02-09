@@ -9,7 +9,7 @@ function pageHeader($title = "Party Shaker") { ?>
     <meta name="description" content="Where all parties start"/>
     <meta name="keywords" content="party, fun"/>
     <meta name="author" content="Di Gregorio Thomas & Emion Thibaut"/>
-    <meta name="copyright" content="Copyright owner"/>
+    <meta name="copyright" content="Copyright authors"/>
 
     <!-- Un petit titre des familles -->
     <title><?php echo $title; ?></title>
