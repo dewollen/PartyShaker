@@ -1,6 +1,6 @@
 <?php
-function pageHeader($title = "Party Shaker") { ?>
-    <!DOCTYPE html>
+function pageHeader($title = "Party Shaker") {
+?><!DOCTYPE html>
 <html lang="fr">
 <head>
     <!-- Sinon Philippe va gazer -->
@@ -28,67 +28,79 @@ function pageHeader($title = "Party Shaker") { ?>
 </head>
 <body>
 
-<?php
-navbar();
 
-}
+<!-- Barre sur le côté :) -->
+<div class="ui inverted sidebar labeled left vertical menu">
+    <div class="item header">
+        <img class="ui mini spaced image" src="logo.png">
+        Party Shaker
+    </div>
 
-function navbar()
-{
-    ?>
+    <a class="item" href="#"><i class="bar icon"></i>Créer</a>
+    <a class="item" href="#"><i class="cocktail icon"></i>Rejoindre</a>
+    <a class="item" href="#"><i class="expand icon"></i>Détails</a>
+    <a class="item" href="#"><i class="edit icon"></i>Préférences</a>
+    <a class="item" href="#"><i class="sign out icon"></i>Déconnexion</a>
+</div>
 
-    <nav class="ui fixed inverted borderless menu">
-        <div class="ui stackable container">
-            <a href="index.php" class="header item">
-                <img id="logo" src="logo.png">
-                Party Shaker
-            </a>
+<!-- Le menu du haut -->
+<nav class="ui fixed inverted borderless menu">
+    <div id="sidebartrigger" class="item">
+        <div class="ui icon black button">
+            <i class="sidebar icon"></i>
+        </div>
+    </div>
 
-            <div class="right menu">
+    <div class="ui container">
+        <a href="index.php" class="header item">
+            <img id="logo" src="logo.png">
+            Party Shaker
+        </a>
 
-                <div class="item">
+        <div class="right menu">
 
-                    <div class="medium ui buttons">
-                        <div id="createParty" class="ui teal animated fade button" tabindex="0">
-                            <div class="visible content">Créer</div>
-                            <div class="hidden content">
-                                <i class="bar icon"></i>
-                            </div>
-                        </div>
+            <div class="item">
 
-                        <div id="joinParty" class="ui purple animated fade button" tabindex="0">
-                            <div class="visible content">Rejoindre</div>
-                            <div class="hidden content">
-                                <i class="cocktail icon"></i>
-                            </div>
+                <div class="medium ui buttons">
+                    <div id="createParty" class="ui teal animated fade button">
+                        <div class="visible content">Créer</div>
+                        <div class="hidden content">
+                            <i class="bar icon"></i>
                         </div>
                     </div>
 
-                </div>
-
-                <a class="item">Mes soirées</a>
-
-                <div class="ui simple dropdown item">
-                    Mon compte <i class="dropdown icon"></i>
-                    <div class="ui inverted menu">
-                        <div class="header">Réglages</div>
-                        <a class="item" href="#">Détails</a>
-                        <a class="item" href="#">Préférences</a>
-                        <div class="divider"></div>
-                        <a class="item" href="#">Déconnexion</a>
+                    <div id="joinParty" class="ui purple animated fade button">
+                        <div class="visible content">Rejoindre</div>
+                        <div class="hidden content">
+                            <i class="cocktail icon"></i>
+                        </div>
                     </div>
                 </div>
 
             </div>
 
-        </div>
-    </nav>
+            <a class="item">Mes soirées</a>
 
-    <?php
+            <div class="ui simple dropdown item">
+                Mon compte <i class="dropdown icon"></i>
+                <div class="ui inverted menu">
+                    <div class="header">Réglages</div>
+                    <a class="item" href="#">Détails</a>
+                    <a class="item" href="#">Préférences</a>
+                    <div class="divider"></div>
+                    <a class="item" href="#">Déconnexion</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</nav>
+
+<?php
 }
 
 function pageFooter() { ?>
-
 
 </body>
 </html>

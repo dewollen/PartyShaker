@@ -32,6 +32,18 @@ function pageContent()
         </table>
 
 
+        <!-- Champ de mines pour tester des trucs -->
+
+        <h4 class="ui horizontal divider header">
+            <i class="bomb icon"></i>
+            Zone de test
+        </h4>
+
+        <!-- ça se change en jQuery tout ça-->
+        <button class="ui toggle button">
+            Non
+        </button>
+
     </div>
 <?php }
 
@@ -44,10 +56,8 @@ function addParty($host = "Tibo", $name = "Projet X", $description = "Grosse dar
         <td><?php echo $name ?></td>
         <td title="<?php echo $description ?>"><?php echo $description ?></td>
         <td>
-            <button class="ui <?php echo $status ?> button">
-                <i class="icon user"></i>
-                Je participe !
-            </button>
+            <div class="ui blue icon button"><i class="thumbs up icon"></i></div>
+            <div class="ui icon button"><i class="thumbs down icon"></i></div>
         </td>
     </tr>
 

@@ -1,7 +1,37 @@
+/*
+    "Prevent the canvas from incorrectly autoresizing when a sidebar opens" on iOS devices
+*/
+html.ios {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+html.ios,
+html.ios body {
+    height: initial !important;
+}
+
+
+
+
 div.container.main {
     margin-top: 7em;
 }
 
 img#logo {
     margin-right: 1.5em;
+}
+
+#sidebartrigger {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    #sidebartrigger {
+        display: inherit;
+    }
+
+    .right.menu {
+        visibility: hidden;
+    }
 }
