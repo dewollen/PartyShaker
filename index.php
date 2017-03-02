@@ -40,9 +40,11 @@ function pageContent()
         </h4>
 
         <!-- ça se change en jQuery tout ça-->
-        <button class="ui toggle button">
+        <button id="vote" class="ui toggle button">
             Non
         </button>
+
+        <button id="test" class="ui button">Hey</button>
 
     </div>
 <?php }

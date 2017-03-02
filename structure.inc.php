@@ -81,9 +81,10 @@ function pageHeader($title = "Party Shaker") {
 
             <a class="item">Mes soirées</a>
 
-            <div class="ui simple dropdown item">
-                Mon compte <i class="dropdown icon"></i>
-                <div class="ui inverted menu">
+            <div class="ui dropdown item">
+                <div class="text">Mon compte</div>
+                <i class="dropdown icon"></i>
+                <div class="ui menu">
                     <div class="header">Réglages</div>
                     <a class="item" href="#">Détails</a>
                     <a class="item" href="#">Préférences</a>
@@ -101,6 +102,13 @@ function pageHeader($title = "Party Shaker") {
 }
 
 function pageFooter() { ?>
+
+<footer class="ui footer inverted">
+
+    <div class="ui container">
+    </div>
+
+</footer>
 
 </body>
 </html>

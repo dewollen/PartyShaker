@@ -1,3 +1,4 @@
+
 /*
     "Prevent the canvas from incorrectly autoresizing when a sidebar opens" on iOS devices
 */
@@ -10,8 +11,6 @@ html.ios,
 html.ios body {
     height: initial !important;
 }
-
-
 
 
 div.container.main {
